@@ -199,5 +199,5 @@
 
 ## CATATAN
 <justify>
-<p>Pembagian subnet CIDR kurang efisien (harusnya A8 tidak usah digabungkan sama subnet H2)</p>
+<p>Pembagian subnet CIDR kurang efisien (harusnya A8 tidak perlu digabungkan dengan subnet A9)</p>
 </justify>
