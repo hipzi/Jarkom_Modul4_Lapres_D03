@@ -16,7 +16,7 @@
      * <a href="#implementasi-cidr">Implementasi</a>
 
 ## VLSM
-<justify>
+<justify></justify>
 <a id="topologi-vlsm"></a>
 <p></p>
 <p>Topologi pada UML beserta pembagian subnet : </p>
@@ -99,7 +99,7 @@
 <p>Langkah-langkah :</p>
 <p>- buat topologi.sh <br>
 - aktifkan iptables pada surabaya <code>iptables –t nat –A POSTROUTING –o eth0 –j MASQUERADE –s 192.168.0.0/16</code><br>
-- setting <code>/etc/sysctl.conf</code> uncomment pada <code>net.ipv4.ip_forward=1</code> kemudian <code>sysctl -p</code><br>
+- setting <code>/etc/sysctl.conf</code> uncomment pada <code>net.ipv4.ip_forward=1</code> kemudian <code>sysctl -p</code> pada masing2 router<br>
 - setting interface pada masing2 uml<br>
 - tambahkan route pada setiap router mengikuti topologi</p>
 
